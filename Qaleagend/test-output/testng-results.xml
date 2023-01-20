@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27483" started-at="2023-01-11T05:13:09Z" finished-at="2023-01-11T05:13:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27483" started-at="2023-01-11T05:13:09Z" finished-at="2023-01-11T05:13:37Z">
+      <class name="com.obsqura.scripts.InventoryTest">
+        <test-method status="PASS" signature="multipleBrowser(java.lang.String)[pri:0, instance:com.obsqura.scripts.InventoryTest@1184ab05]" name="multipleBrowser" is-config="true" duration-ms="7399" started-at="2023-01-11T05:13:09Z" finished-at="2023-01-11T05:13:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleBrowser -->
+        <test-method status="PASS" signature="verifyUserAbleToDeleteIventoryProduct()[pri:0, instance:com.obsqura.scripts.InventoryTest@1184ab05]" name="verifyUserAbleToDeleteIventoryProduct" duration-ms="19888" started-at="2023-01-11T05:13:17Z" finished-at="2023-01-11T05:13:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserAbleToDeleteIventoryProduct -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.obsqura.scripts.InventoryTest@1184ab05]" name="afterMethod" is-config="true" duration-ms="171" started-at="2023-01-11T05:13:37Z" finished-at="2023-01-11T05:13:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserAbleToDeleteIventoryProduct status=SUCCESS method=InventoryTest.verifyUserAbleToDeleteIventoryProduct()[pri:0, instance:com.obsqura.scripts.InventoryTest@1184ab05] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.obsqura.scripts.InventoryTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

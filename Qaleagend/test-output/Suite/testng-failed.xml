@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.obsqura.scripts.ClientTest">
+        <methods>
+          <include name="verifyUserAbletoEditClientDetails"/>
+          <include name="verifyUserAbleToGetErrorMessageForUnuploadedImageClickOnViewClientImage"/>
+          <include name="afterMethod"/>
+          <include name="verifyUserAbleToViewClientImageClickOnViewImage"/>
+          <include name="verifyUserAbleToDoValidClientSearch"/>
+          <include name="verifyUserAbletoDeleteClient"/>
+          <include name="multipleBrowser"/>
+          <include name="verifyUserAbletoViewClientDetails"/>
+        </methods>
+      </class> <!-- com.obsqura.scripts.ClientTest -->
+      <class name="com.obsqura.scripts.ReparationTest">
+        <methods>
+          <include name="verifyUserAbleToeditReparationDetails"/>
+          <include name="verifyUserAbleToViewPayMentDetails"/>
+          <include name="verifyUserAbleToSearchCompletedRepairsList"/>
+          <include name="verifyUserAbleToSearchPendingRepairsList"/>
+          <include name="verifyUserAbleToSendEmailInvoice"/>
+          <include name="verifyUserAbleToViewLogDetails"/>
+          <include name="afterMethod"/>
+          <include name="verifyUserAbleToPrintBarcode"/>
+          <include name="verifyUserAbleToDeleteReparationDetails"/>
+          <include name="multipleBrowser"/>
+          <include name="verifyUserAbleToViewReparationDetails"/>
+          <include name="verifyUserAbleToSearchTheReparationDetails"/>
+        </methods>
+      </class> <!-- com.obsqura.scripts.ReparationTest -->
+      <class name="com.obsqura.scripts.LoginTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="multipleBrowser"/>
+          <include name="verifyValidLogin"/>
+        </methods>
+      </class> <!-- com.obsqura.scripts.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
